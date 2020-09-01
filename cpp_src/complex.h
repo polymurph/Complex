@@ -8,14 +8,17 @@ class Complex
 
         Complex(const double& Im,
                 const double& Re);
+
+        double real();
+        double imag();
+        void set_real(const double& Re);
+        void set_imag(const double& Im);
+        
 #if 0
         double abs();
         double arg();
         Complex conj_complex();
-        void set_real(const double& Re);
-        void set_imag(const double& Im);
-        double get_real();
-        double get_imag();
+        
 
         Complex +operator(const Complex& j);
 

@@ -14,3 +14,23 @@ Complex::Complex(const double& Im,
 {
     
 }
+
+double Complex::real()
+{
+    return real;
+}
+
+double Complex::imag()
+{
+    return imaginary;
+}
+
+void Complex::set_real(const double& Re)
+{
+    real = Re;
+}
+
+void Complex::set_imag(const double& Im)
+{
+    imaginary = Im;
+}        

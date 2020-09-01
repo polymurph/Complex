@@ -12,7 +12,9 @@ int main(void)
 	cout << "Hello, World!" << endl;
 
 
-	static Complex x();
+	Complex x();
+
+	cout << "x =" << x.real() << x.imag() <<"j" << endl;
 
 
 	return 0;
