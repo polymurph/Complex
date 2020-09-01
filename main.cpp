@@ -10,5 +10,10 @@ using namespace std;
 int main(void)
 {
 	cout << "Hello, World!" << endl;
+
+
+	static Complex x();
+
+
 	return 0;
 }
