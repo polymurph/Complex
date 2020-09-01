@@ -1,36 +1,36 @@
 #include "complex.h"¨
 
 Complex::Complex() :
-    imaginary(0),
-    real(0)
+    im(0),
+    re(0)
 {
     
 }
 
 Complex::Complex(const double& Im,
                  const double& Re) :
-    imaginary(Im),
-    real(Re)
+    im(Im),
+    re(Re)
 {
     
 }
 
 double Complex::real()
 {
-    return real;
+    return re;
 }
 
 double Complex::imag()
 {
-    return imaginary;
+    return im;
 }
 
 void Complex::set_real(const double& Re)
 {
-    real = Re;
+    re = Re;
 }
 
 void Complex::set_imag(const double& Im)
 {
-    imaginary = Im;
+    im = Im;
 }        

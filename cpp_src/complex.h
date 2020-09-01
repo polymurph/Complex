@@ -24,8 +24,8 @@ class Complex
 
 #endif
     private:
-        double real;
-        double imaginary;
+        double re;
+        double im;
 };
 
 
