@@ -36,7 +36,7 @@ void Complex::set_imag(const double& Im)
     im = Im;
 }        
 
-void Complex::abs()
+double Complex::abs()
 {
     return sqrt(re * re + im * im);
 }
