@@ -13,9 +13,10 @@ class Complex
         double imag();
         void set_real(const double& Re);
         void set_imag(const double& Im);
+     
+        double abs();
         
 #if 0
-        double abs();
         double arg();
         Complex conj_complex();
         

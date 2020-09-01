@@ -1,4 +1,5 @@
-#include "complex.h"¨
+#include "complex.h"
+#include <math.h>
 
 Complex::Complex() :
     im(0),
@@ -34,3 +35,8 @@ void Complex::set_imag(const double& Im)
 {
     im = Im;
 }        
+
+void Complex::abs()
+{
+    return sqrt(re * re + im * im);
+}
